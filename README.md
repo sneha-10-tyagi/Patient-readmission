@@ -69,16 +69,18 @@ This project aims to predict early hospital readmission (within 30 days) for dia
 
 ---
 
-## 📈 Tableau Dashboard (Coming Soon)
+## 📈 Interactive Tableau Dashboard
 
-The final dataset will be visualized using **Tableau** to make the results interpretable and actionable by healthcare stakeholders. Planned visual components include:
+The final dataset has been visualized using **Tableau** to make the results interpretable and actionable for healthcare stakeholders. The interactive dashboard allows for a deep dive into the factors affecting patient readmission.
 
-- **Readmission Rate by Age Group**
-- **Top Predictors of Readmission**
-- **Patient-Level Risk Scores**
-- **Discharge Disposition vs. Readmission Rate**
-- **Interactive Filtering by Demographics or History**
+**[View the Live Interactive Dashboard Here](https://public.tableau.com/views/Book1_17529997470360/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-> The Tableau dashboard will help explore high-risk patient profiles and potential intervention points.
+### Visual Components:
 
+* **KPI Overview:** High-level metrics including **Total Patients**, overall **Readmission Rate**, and **Average Length of Stay**.
+* **Demographic Analysis:** Bar charts showing the readmission rate broken down by **Age** and **Race**.
+* **Key Predictors of Readmission:** A feature importance chart highlighting the most influential factors in predicting readmission, such as `discharge_disposition_id`.
+* **Clinical Analysis Scatter Plot:** An interactive scatter plot visualizing the relationship between a patient's **Duration of Stay** and the **Number of Lab Procedures**, color-coded by readmission status.
+* **Interactive Filtering:** The entire dashboard can be filtered by clicking on specific demographic groups, allowing for a detailed exploration of high-risk patient profiles and potential intervention points.
+  
 ---
